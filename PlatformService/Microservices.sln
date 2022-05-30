@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService.csproj", "{8C1EB4AD-FEA5-402B-AF9D-D8B3CF8252D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8s", "K8s", "{F03F8C17-FD9D-45BC-931B-7EBF6597AF78}"
+	ProjectSection(SolutionItems) = preProject
+		..\K8S\commands-depl.yaml = ..\K8S\commands-depl.yaml
+		..\K8S\platforms-depl.yaml = ..\K8S\platforms-depl.yaml
+		..\K8S\platforms-np-srv.yaml = ..\K8S\platforms-np-srv.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsService", "..\CommandsService\CommandsService.csproj", "{ADC6A646-6F8D-432C-8340-CC4EA0EBD8C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C1EB4AD-FEA5-402B-AF9D-D8B3CF8252D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1EB4AD-FEA5-402B-AF9D-D8B3CF8252D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1EB4AD-FEA5-402B-AF9D-D8B3CF8252D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1EB4AD-FEA5-402B-AF9D-D8B3CF8252D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC6A646-6F8D-432C-8340-CC4EA0EBD8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC6A646-6F8D-432C-8340-CC4EA0EBD8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC6A646-6F8D-432C-8340-CC4EA0EBD8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC6A646-6F8D-432C-8340-CC4EA0EBD8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3553A7-8534-4C38-B0ED-C868BAD1158E}
+	EndGlobalSection
+EndGlobal
