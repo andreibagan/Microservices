@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{F03F8C17-FD9D-45BC-931B-7EBF6597AF78}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\commands-depl.yaml = K8S\commands-depl.yaml
+		C:\Windows\System32\drivers\etc\hosts = C:\Windows\System32\drivers\etc\hosts
+		K8S\ingress-srv.yaml = K8S\ingress-srv.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\mssql-plat-depl.yaml = K8S\mssql-plat-depl.yaml
+		K8S\platforms-depl.yaml = K8S\platforms-depl.yaml
+		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsService", "CommandsService\CommandsService.csproj", "{FC14FF21-8093-43E9-9C95-7F9858B0997A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{5919F691-0E90-4BA0-8551-7EF6EB82CA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC14FF21-8093-43E9-9C95-7F9858B0997A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC14FF21-8093-43E9-9C95-7F9858B0997A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC14FF21-8093-43E9-9C95-7F9858B0997A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC14FF21-8093-43E9-9C95-7F9858B0997A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5919F691-0E90-4BA0-8551-7EF6EB82CA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5919F691-0E90-4BA0-8551-7EF6EB82CA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5919F691-0E90-4BA0-8551-7EF6EB82CA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5919F691-0E90-4BA0-8551-7EF6EB82CA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3553A7-8534-4C38-B0ED-C868BAD1158E}
+	EndGlobalSection
+EndGlobal
