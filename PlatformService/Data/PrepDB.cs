@@ -23,7 +23,6 @@ namespace PlatformService.Data
             {
                 throw new ArgumentNullException(nameof(context), "Context is null");
             }
-
             if (isProd)
             {
                 Console.WriteLine("--> Attempting to apply migrations...");
