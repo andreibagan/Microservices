@@ -24,8 +24,8 @@ namespace CommandsService
 
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
