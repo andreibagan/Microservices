@@ -16,7 +16,7 @@ namespace PlatformService.SyncDataServices.Http
         public HttpCommandDataClient(HttpClient httpClient, IConfiguration config)
         {
             _httpClient = httpClient;
-            _commandsServiceUrl = config.GetSection("CommandsServiceSettings:Url").Value;
+            _commandsServiceUrl = config.GetSection("CommandsServiceSettings:Url").Get<string>();
         }
 
         public async Task SendPlatformToCommand(PlatformReadDto platform)
